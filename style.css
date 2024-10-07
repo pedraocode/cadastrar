@@ -1,0 +1,295 @@
+.tudo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.esquerda {
+    flex: 1;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.marketplace img {
+    width: 267.36px;
+    height: 68.65px;
+    margin: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.meio {
+    position: relative;
+    width: 100%;
+    max-width: 755px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    margin: 10px;
+}
+
+.meio img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.direita {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caixa {
+    display: flex; /* Adicionando display flex */
+    flex-direction: column; /* Alinhando elementos em coluna */
+    justify-content: space-between; /* Distribuindo o espaço entre os elementos */
+    width: 563px;
+    height: 100%;
+    padding: 40px;
+    padding-bottom: 350px;
+    margin: 20px;
+    margin-top: 350px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Título e subtítulo */
+.titosub h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.titosub p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 24px;
+}
+
+/* Campos de entrada */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.inputs .prime, .inputs .segu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.input-container, .senha-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.input-container img, .senha-container img {
+    margin-right: 10px;
+}
+
+.oxente {
+    border: none;
+}
+
+.baixo {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Ajuste para inputs e imagens na mesma linha */
+.prim, .segum {
+    display: flex;
+    flex-direction: column; /* Modificado para exibir os elementos em coluna */
+    align-items: flex-start; /* Alinhamento à esquerda */
+}
+
+.prim img, .segum img {
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o input */
+}
+
+.prim input, .segum input {
+    width: 100%; /* Inputs ocupam a largura total */
+    margin-top: 10px; /* Espaçamento entre a imagem e o input */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.pepp {
+    margin: 0; /* Remove margens extras */
+    max-width: 24px;
+    margin-bottom: 5px; /* Espaçamento entre a imagem e o input */
+}
+.botaun {
+    background-color: rgb(242, 77, 12);
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-bottom: 0; /* Remover a margem inferior para garantir que fique no final */
+    margin-top: 30px; /* Manter a margem superior */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: none;
+}
+
+
+
+.botaun button {
+    background: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botaun button img {
+    margin-left: 8px;
+}
+
+/* Segundo botão (Cadastrar) */
+
+.butaun {
+    background-color: #fff;
+    border: 1px solid rgb(242, 77, 12);
+    color: rgb(242, 77, 12);
+    padding: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.butaun button {
+    background: none;
+    border: none;
+    color: rgb(242, 77, 12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.butaun button img {
+    margin-left: 8px;
+}
+
+/* Linha de divisão */
+.line {
+    border: 1px solid rgb(194, 194, 194);
+    width: 100%;
+}
+
+p {
+    color:  #666666;
+    width: 367px;
+    height: 19px;   
+}
+
+.pepp {
+    max-width: 24px;
+}
+
+.okokok {
+    max-width: 120px;
+}
+
+.prim {
+    display: flex;
+    align-items: center;
+}
+
+.segum {
+    display: flex;
+    align-items: center;
+}
+.junta {
+    display: flex;
+    align-items: center;
+}
+
+.junta img {
+    margin: 0; /* Remove margens extras da imagem */
+}
+
+.prim, .segum {
+    display: flex;
+    flex-direction: column; /* Exibe os elementos em coluna */
+    align-items: flex-start; /* Alinhamento à esquerda */
+    margin: 10px; /* Espaçamento ao redor */
+}
+@media (max-width: 1100px) {
+    .a, .b {
+        display: none; /* Esconde elementos não necessários */
+    }
+}
+
+@media (min-width: 767px) {
+    .esquerda, .direita {
+        width: 50%; /* Divide a tela em 50% */
+    }
+}
+
+@media (max-width: 767px) {
+    .caixa {
+        padding: 20px;
+    }
+
+    .botaun, .butaun {
+        padding: 15px;
+        width: 100%; /* Garante que o botão não ultrapasse o container */
+        max-width: 400px; /* Define um tamanho máximo para o botão */
+        margin: 0 auto; /* Centraliza o botão */
+    }
+
+    p {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    /* Ajustes para centralizar a parte direita */
+    .direita {
+        width: 100%; /* Torna a seção direita ocupar toda a largura */
+        display: flex; /* Garante que os elementos internos se comportem corretamente */
+        justify-content: center; /* Centraliza o conteúdo */
+        align-items: center; /* Alinha verticalmente ao centro */
+        margin-top: 20px; /* Margem superior para separar do conteúdo anterior */
+    }
+}
